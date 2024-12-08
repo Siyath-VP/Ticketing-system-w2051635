@@ -1,4 +1,4 @@
-package config;
+package com.siyath.config;
 
 import com.google.gson.annotations.Expose;
 
@@ -17,7 +17,7 @@ public class Config {
     private int numCustomers;
 
     private static final String DEFAULT_CONFIG_FILE = "config/system_config.json";
-    private static final String CONFIG_FILE = System.getProperty("config.file.path", DEFAULT_CONFIG_FILE);
+    private static final String CONFIG_FILE = System.getProperty("com.siyath.config.file.path", DEFAULT_CONFIG_FILE);
 
     public Config(int totalTickets, int ticketReleaseRate, int customerRetrievalRate,
                   int maxTicketCapacity, int numVendors, int numCustomers) {

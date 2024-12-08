@@ -1,8 +1,7 @@
-package model;
+package com.siyath.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import util.CustomLogger;
 
 public class Customer implements Runnable {
 
@@ -21,7 +20,7 @@ public class Customer implements Runnable {
         while (!Thread.currentThread().isInterrupted()) {
             ticketPool.purchaseTickets(purchaseRate);
             try {
-                Thread.sleep(1500); // Attempt to purchase tickets every 1.5 seconds
+                Thread.sleep(1500);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Customer thread interrupted.{}", e.getMessage());

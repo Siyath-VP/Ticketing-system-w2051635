@@ -1,20 +1,29 @@
+package com.siyath;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import config.Config;
-import model.Customer;
-import model.TicketPool;
-import model.Vendor;
+import com.siyath.config.Config;
+import com.siyath.model.Customer;
+import com.siyath.model.TicketPool;
+import com.siyath.model.Vendor;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//
+//@SpringBootApplication
+public class ApplicationCLI {
+
     private static final String CONFIG_FILE = "config.json";
     private static final String INFO_FILE = "info.txt";
 
     public static void main(String[] args) {
+        //SpringApplication.run(Main.class, args);
+
         Scanner scanner = new Scanner(System.in);
         Config config = null;
 

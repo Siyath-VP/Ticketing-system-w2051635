@@ -1,8 +1,7 @@
-package model;
+package com.siyath.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import util.CustomLogger;
 
 public class Vendor implements Runnable {
 
