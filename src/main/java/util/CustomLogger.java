@@ -1,6 +1,5 @@
-package main.util;
+package util;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
