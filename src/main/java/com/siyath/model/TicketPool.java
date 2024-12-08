@@ -1,17 +1,16 @@
-package model;
+package com.siyath.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import util.CustomLogger;
 
 import java.util.Vector;
 
 public class TicketPool {
 
     private static final Logger logger = LogManager.getLogger(TicketPool.class);
-    private int totalTickets; // Total tickets yet to be released
-    private final int maxCapacity; // Maximum capacity of the pool
-    private final Vector<Integer> ticketPool; // Vector to store tickets
+    private int totalTickets;
+    private final int maxCapacity;
+    private final Vector<Integer> ticketPool;
     private boolean simulationComplete = false;
 
     public TicketPool(int totalTickets, int maxCapacity) {
@@ -41,13 +40,13 @@ public class TicketPool {
         logger.info("Vendor released " + ticketsToAdd + " tickets. Tickets in pool: "
                 + ticketPool.size() + ", Tickets remaining: " + totalTickets);
 
-        notifyAll(); // Notify customers about ticket availability
+        notifyAll(); // Notify customers
     }
 
     public synchronized void purchaseTickets(int count) {
         while (ticketPool.isEmpty() && !simulationComplete) {
             try {
-                wait(); // Wait for tickets to be added
+                wait(); // Wait for tickets
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 return;

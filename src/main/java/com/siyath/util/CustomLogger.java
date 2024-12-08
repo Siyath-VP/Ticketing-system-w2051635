@@ -1,4 +1,4 @@
-package util;
+package com.siyath.util;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
