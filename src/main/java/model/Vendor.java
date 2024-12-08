@@ -1,8 +1,12 @@
-package main.model;
+package model;
 
-import main.util.CustomLogger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import util.CustomLogger;
 
 public class Vendor implements Runnable {
+
+    private static final Logger logger = LogManager.getLogger(Vendor.class);
     private final TicketPool ticketPool;
     private final int releaseRate;
 
@@ -13,14 +17,16 @@ public class Vendor implements Runnable {
 
     @Override
     public void run() {
+        logger.info("Vendor thread started.");
         while (!Thread.currentThread().isInterrupted()) {
             ticketPool.addTickets(releaseRate);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(2000); // Release tickets every 2 seconds
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
+                logger.error("Vendor thread interrupted.{}", e.getMessage());
             }
         }
-        CustomLogger.infoMessage("Vendor thread stopped.");
+        logger.info("Vendor thread stopped.");
     }
 }
