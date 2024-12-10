@@ -62,7 +62,7 @@ The project is divided into three main components:
 
 Here’s the content formatted entirely for direct use in an `.md` file:
 
-```markdown
+
 ### **Backend**
 
 1. Clone the `master` branch:
@@ -90,7 +90,7 @@ Here’s the content formatted entirely for direct use in an `.md` file:
    ```
 
 
-**Frontend**
+### **Frontend**
 
 1. Clone the frontend branch (once implemented):
 ```bash
