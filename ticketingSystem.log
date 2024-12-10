@@ -112,3 +112,194 @@
 [2024-12-08 21:00:39] [INFO] Customer thread stopped.
 [2024-12-08 21:00:39] [INFO] Vendor thread stopped.
 [2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-11 00:49:07] [INFO] Starting Main using Java 21.0.2 with PID 22632 (C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP\target\classes started by PC in C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP)
+[2024-12-11 00:49:07] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 00:49:08] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 00:49:08] [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-11 00:49:08] [INFO] Starting service [Tomcat]
+[2024-12-11 00:49:08] [INFO] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-11 00:49:08] [INFO] Initializing Spring embedded WebApplicationContext
+[2024-12-11 00:49:08] [INFO] Root WebApplicationContext: initialization completed in 780 ms
+[2024-12-11 00:49:08] [INFO] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-11 00:49:08] [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2024-12-11 00:49:08] [INFO] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-12-11 00:49:08] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2024-12-11 00:55:09] [INFO] Starting Main using Java 21.0.2 with PID 15636 (C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP\target\classes started by PC in C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP)
+[2024-12-11 00:55:09] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 00:55:11] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 00:55:11] [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-11 00:55:11] [INFO] Starting service [Tomcat]
+[2024-12-11 00:55:11] [INFO] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-11 00:55:11] [INFO] Initializing Spring embedded WebApplicationContext
+[2024-12-11 00:55:11] [INFO] Root WebApplicationContext: initialization completed in 1796 ms
+[2024-12-11 00:55:12] [INFO] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-11 00:55:12] [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2024-12-11 00:55:12] [INFO] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-12-11 00:55:12] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2024-12-11 01:01:23] [INFO] Starting Main using Java 21.0.2 with PID 15192 (C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP\target\classes started by PC in C:\Users\PC\Desktop\Courseworks\OOP 2nd Year CW\OOP)
+[2024-12-11 01:01:23] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 01:01:24] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 01:01:24] [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-11 01:01:24] [INFO] Starting service [Tomcat]
+[2024-12-11 01:01:24] [INFO] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-11 01:01:24] [INFO] Initializing Spring embedded WebApplicationContext
+[2024-12-11 01:01:24] [INFO] Root WebApplicationContext: initialization completed in 825 ms
+[2024-12-11 01:01:24] [INFO] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-11 01:01:24] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 01:01:24] [INFO] Started Main in 1.659 seconds (process running for 2.614)
+[2024-12-11 01:02:48] [INFO] Vendor thread started.
+[2024-12-11 01:02:48] [INFO] Vendor thread started.
+[2024-12-11 01:02:48] [INFO] Vendor thread started.
+[2024-12-11 01:02:48] [INFO] Vendor thread started.
+[2024-12-11 01:02:48] [INFO] Vendor thread started.
+[2024-12-11 01:02:48] [INFO] Customer thread started.
+[2024-12-11 01:02:48] [INFO] Customer thread started.
+[2024-12-11 01:02:48] [INFO] Customer thread started.
+[2024-12-11 01:02:48] [INFO] Customer thread started.
+[2024-12-11 01:02:48] [INFO] Customer thread started.
+[2024-12-11 01:02:48] [INFO] Vendor released 3 tickets. Tickets in pool: 3, Tickets remaining: 97
+[2024-12-11 01:02:48] [INFO] Customer purchased 2 tickets. Tickets left in pool: 1
+[2024-12-11 01:02:48] [INFO] Customer purchased 1 tickets. Tickets left in pool: 0
+[2024-12-11 01:02:48] [INFO] Vendor released 3 tickets. Tickets in pool: 3, Tickets remaining: 94
+[2024-12-11 01:02:48] [INFO] Vendor released 3 tickets. Tickets in pool: 6, Tickets remaining: 91
+[2024-12-11 01:02:48] [INFO] Vendor released 3 tickets. Tickets in pool: 9, Tickets remaining: 88
+[2024-12-11 01:02:48] [INFO] Vendor released 3 tickets. Tickets in pool: 12, Tickets remaining: 85
+[2024-12-11 01:02:48] [INFO] Customer purchased 2 tickets. Tickets left in pool: 10
+[2024-12-11 01:02:48] [INFO] Customer purchased 2 tickets. Tickets left in pool: 8
+[2024-12-11 01:02:48] [INFO] Customer purchased 2 tickets. Tickets left in pool: 6
+[2024-12-11 01:02:50] [INFO] Customer purchased 2 tickets. Tickets left in pool: 4
+[2024-12-11 01:02:50] [INFO] Customer purchased 2 tickets. Tickets left in pool: 2
+[2024-12-11 01:02:50] [INFO] Customer purchased 2 tickets. Tickets left in pool: 0
+[2024-12-11 01:02:50] [INFO] Vendor released 3 tickets. Tickets in pool: 3, Tickets remaining: 82
+[2024-12-11 01:02:50] [INFO] Customer purchased 2 tickets. Tickets left in pool: 1
+[2024-12-11 01:02:50] [INFO] Customer purchased 1 tickets. Tickets left in pool: 0
+[2024-12-11 01:02:50] [INFO] Vendor released 3 tickets. Tickets in pool: 3, Tickets remaining: 79
+[2024-12-11 01:02:50] [INFO] Vendor released 3 tickets. Tickets in pool: 6, Tickets remaining: 76
+[2024-12-11 01:02:50] [INFO] Vendor released 3 tickets. Tickets in pool: 9, Tickets remaining: 73
+[2024-12-11 01:02:50] [INFO] Vendor released 3 tickets. Tickets in pool: 12, Tickets remaining: 70
+[2024-12-11 01:02:51] [INFO] Customer purchased 2 tickets. Tickets left in pool: 10
+[2024-12-11 01:02:51] [INFO] Customer purchased 2 tickets. Tickets left in pool: 8
+[2024-12-11 01:02:51] [INFO] Customer purchased 2 tickets. Tickets left in pool: 6
+[2024-12-11 01:02:52] [INFO] Customer purchased 2 tickets. Tickets left in pool: 4
+[2024-12-11 01:02:52] [INFO] Customer purchased 2 tickets. Tickets left in pool: 2
+[2024-12-11 01:02:52] [INFO] Vendor released 3 tickets. Tickets in pool: 5, Tickets remaining: 67
+[2024-12-11 01:02:52] [INFO] Vendor released 3 tickets. Tickets in pool: 8, Tickets remaining: 64
+[2024-12-11 01:02:52] [INFO] Vendor released 3 tickets. Tickets in pool: 11, Tickets remaining: 61
+[2024-12-11 01:02:52] [INFO] Vendor released 3 tickets. Tickets in pool: 14, Tickets remaining: 58
+[2024-12-11 01:02:52] [INFO] Vendor released 3 tickets. Tickets in pool: 17, Tickets remaining: 55
+[2024-12-11 01:02:53] [INFO] Customer purchased 2 tickets. Tickets left in pool: 15
+[2024-12-11 01:02:53] [INFO] Customer purchased 2 tickets. Tickets left in pool: 13
+[2024-12-11 01:02:53] [INFO] Customer purchased 2 tickets. Tickets left in pool: 11
+[2024-12-11 01:02:53] [INFO] Customer purchased 2 tickets. Tickets left in pool: 9
+[2024-12-11 01:02:53] [INFO] Customer purchased 2 tickets. Tickets left in pool: 7
+[2024-12-11 01:02:54] [INFO] Vendor released 3 tickets. Tickets in pool: 10, Tickets remaining: 52
+[2024-12-11 01:02:54] [INFO] Customer purchased 2 tickets. Tickets left in pool: 8
+[2024-12-11 01:02:54] [INFO] Customer purchased 2 tickets. Tickets left in pool: 6
+[2024-12-11 01:02:54] [INFO] Vendor released 3 tickets. Tickets in pool: 9, Tickets remaining: 49
+[2024-12-11 01:02:54] [INFO] Vendor released 3 tickets. Tickets in pool: 12, Tickets remaining: 46
+[2024-12-11 01:02:54] [INFO] Vendor released 3 tickets. Tickets in pool: 15, Tickets remaining: 43
+[2024-12-11 01:02:54] [INFO] Vendor released 3 tickets. Tickets in pool: 18, Tickets remaining: 40
+[2024-12-11 01:02:54] [INFO] Customer purchased 2 tickets. Tickets left in pool: 16
+[2024-12-11 01:02:55] [INFO] Customer purchased 2 tickets. Tickets left in pool: 14
+[2024-12-11 01:02:55] [INFO] Customer purchased 2 tickets. Tickets left in pool: 12
+[2024-12-11 01:02:56] [INFO] Customer purchased 2 tickets. Tickets left in pool: 10
+[2024-12-11 01:02:56] [INFO] Customer purchased 2 tickets. Tickets left in pool: 8
+[2024-12-11 01:02:56] [INFO] Customer purchased 2 tickets. Tickets left in pool: 6
+[2024-12-11 01:02:56] [INFO] Vendor released 3 tickets. Tickets in pool: 9, Tickets remaining: 37
+[2024-12-11 01:02:56] [INFO] Vendor released 3 tickets. Tickets in pool: 12, Tickets remaining: 34
+[2024-12-11 01:02:56] [INFO] Vendor released 3 tickets. Tickets in pool: 15, Tickets remaining: 31
+[2024-12-11 01:02:56] [INFO] Vendor released 3 tickets. Tickets in pool: 18, Tickets remaining: 28
+[2024-12-11 01:02:56] [INFO] Customer purchased 2 tickets. Tickets left in pool: 16
+[2024-12-11 01:02:56] [INFO] Customer purchased 2 tickets. Tickets left in pool: 14
+[2024-12-11 01:02:56] [INFO] Vendor released 3 tickets. Tickets in pool: 17, Tickets remaining: 25
+[2024-12-11 01:02:57] [INFO] Customer purchased 2 tickets. Tickets left in pool: 15
+[2024-12-11 01:02:57] [INFO] Customer purchased 2 tickets. Tickets left in pool: 13
+[2024-12-11 01:02:58] [INFO] Customer purchased 2 tickets. Tickets left in pool: 11
+[2024-12-11 01:02:58] [INFO] Customer purchased 2 tickets. Tickets left in pool: 9
+[2024-12-11 01:02:58] [INFO] Customer purchased 2 tickets. Tickets left in pool: 7
+[2024-12-11 01:02:58] [INFO] Vendor released 3 tickets. Tickets in pool: 10, Tickets remaining: 22
+[2024-12-11 01:02:58] [INFO] Vendor released 3 tickets. Tickets in pool: 13, Tickets remaining: 19
+[2024-12-11 01:02:58] [INFO] Vendor released 3 tickets. Tickets in pool: 16, Tickets remaining: 16
+[2024-12-11 01:02:58] [INFO] Vendor released 3 tickets. Tickets in pool: 19, Tickets remaining: 13
+[2024-12-11 01:02:58] [INFO] Vendor released 3 tickets. Tickets in pool: 22, Tickets remaining: 10
+[2024-12-11 01:02:59] [INFO] Customer purchased 2 tickets. Tickets left in pool: 20
+[2024-12-11 01:02:59] [INFO] Customer purchased 2 tickets. Tickets left in pool: 18
+[2024-12-11 01:02:59] [INFO] Customer purchased 2 tickets. Tickets left in pool: 16
+[2024-12-11 01:02:59] [INFO] Customer purchased 2 tickets. Tickets left in pool: 14
+[2024-12-11 01:02:59] [INFO] Customer purchased 2 tickets. Tickets left in pool: 12
+[2024-12-11 01:03:00] [INFO] Vendor released 3 tickets. Tickets in pool: 15, Tickets remaining: 7
+[2024-12-11 01:03:00] [INFO] Vendor released 3 tickets. Tickets in pool: 18, Tickets remaining: 4
+[2024-12-11 01:03:00] [INFO] Vendor released 3 tickets. Tickets in pool: 21, Tickets remaining: 1
+[2024-12-11 01:03:00] [INFO] Vendor released 1 tickets. Tickets in pool: 22, Tickets remaining: 0
+[2024-12-11 01:03:00] [INFO] Customer purchased 2 tickets. Tickets left in pool: 20
+[2024-12-11 01:03:00] [INFO] Vendor released 0 tickets. Tickets in pool: 20, Tickets remaining: 0
+[2024-12-11 01:03:00] [INFO] Customer purchased 2 tickets. Tickets left in pool: 18
+[2024-12-11 01:03:01] [INFO] Customer purchased 2 tickets. Tickets left in pool: 16
+[2024-12-11 01:03:01] [INFO] Customer purchased 2 tickets. Tickets left in pool: 14
+[2024-12-11 01:03:01] [INFO] Customer purchased 2 tickets. Tickets left in pool: 12
+[2024-12-11 01:03:02] [INFO] Customer purchased 2 tickets. Tickets left in pool: 10
+[2024-12-11 01:03:02] [INFO] Customer purchased 2 tickets. Tickets left in pool: 8
+[2024-12-11 01:03:02] [INFO] Customer purchased 2 tickets. Tickets left in pool: 6
+[2024-12-11 01:03:02] [INFO] Vendor released 0 tickets. Tickets in pool: 6, Tickets remaining: 0
+[2024-12-11 01:03:02] [INFO] Vendor released 0 tickets. Tickets in pool: 6, Tickets remaining: 0
+[2024-12-11 01:03:02] [INFO] Vendor released 0 tickets. Tickets in pool: 6, Tickets remaining: 0
+[2024-12-11 01:03:02] [INFO] Vendor released 0 tickets. Tickets in pool: 6, Tickets remaining: 0
+[2024-12-11 01:03:02] [INFO] Vendor released 0 tickets. Tickets in pool: 6, Tickets remaining: 0
+[2024-12-11 01:03:02] [INFO] Customer purchased 2 tickets. Tickets left in pool: 4
+[2024-12-11 01:03:02] [INFO] Customer purchased 2 tickets. Tickets left in pool: 2
+[2024-12-11 01:03:03] [INFO] Customer purchased 2 tickets. Tickets left in pool: 0
+[2024-12-11 01:03:04] [INFO] All tickets released.
+[2024-12-11 01:03:04] [INFO] All tickets released.
+[2024-12-11 01:03:04] [INFO] All tickets released.
+[2024-12-11 01:03:04] [INFO] All tickets released.
+[2024-12-11 01:03:04] [INFO] All tickets released.
+[2024-12-11 01:03:05] [ERROR] Customer thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Vendor thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Vendor thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Customer thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Vendor thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [INFO] Vendor thread stopped.
+[2024-12-11 01:03:05] [INFO] Vendor thread stopped.
+[2024-12-11 01:03:05] [ERROR] Vendor thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Customer thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [INFO] Vendor thread stopped.
+[2024-12-11 01:03:05] [INFO] Vendor thread stopped.
+[2024-12-11 01:03:05] [ERROR] Customer thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [INFO] Customer thread stopped.
+[2024-12-11 01:03:05] [INFO] Customer thread stopped.
+[2024-12-11 01:03:05] [INFO] Customer thread stopped.
+[2024-12-11 01:03:05] [INFO] Customer thread stopped.
+[2024-12-11 01:03:05] [ERROR] Vendor thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [ERROR] Customer thread interrupted.sleep interrupted
+[2024-12-11 01:03:05] [INFO] Customer thread stopped.
+[2024-12-11 01:03:05] [INFO] Vendor thread stopped.
