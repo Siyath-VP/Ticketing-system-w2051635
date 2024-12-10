@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Main {
-
+//last
 //    private static final String CONFIG_FILE = "config.json";
 //    private static final String INFO_FILE = "info.txt";
 
