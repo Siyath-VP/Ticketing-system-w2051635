@@ -22,8 +22,8 @@ public class Customer implements Runnable {
             try {
                 Thread.sleep(1500);
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                logger.error("Customer thread interrupted.{}", e.getMessage());
+                Thread.currentThread().interrupt(); // Restore interrupt status
+                logger.error("Customer thread interrupted: {}", e.getMessage());
             }
         }
         logger.info("Customer thread stopped.");

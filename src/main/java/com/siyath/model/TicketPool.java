@@ -49,7 +49,7 @@ public class TicketPool {
                 wait(); // Wait for tickets
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
-                return;
+                return; // Thread interrupted, exit method
             }
         }
 
