@@ -22,8 +22,8 @@ public class Vendor implements Runnable {
             try {
                 Thread.sleep(2000); // Release tickets every 2 seconds
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                logger.error("Vendor thread interrupted.{}", e.getMessage());
+                Thread.currentThread().interrupt(); // Restore interrupt status
+                logger.error("Vendor thread interrupted: {}", e.getMessage());
             }
         }
         logger.info("Vendor thread stopped.");
