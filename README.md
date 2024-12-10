@@ -1,8 +1,8 @@
-Based on the project details provided, the GitHub branch structure, and the coursework specification, here's a comprehensive README.md for your project:
 
-**Real-Time Ticketing System**
 
-**Overview**
+# **Real-Time Ticketing System**
+
+## **Overview**
 
 The Real-Time Ticketing System is a multi-threaded, producer-consumer pattern-based application developed as part of the coursework specification. The project simulates a dynamic ticketing environment where vendors (producers) release tickets, and customers (consumers) purchase them concurrently while ensuring synchronization, concurrency, and data integrity.
 
