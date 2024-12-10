@@ -1,7 +1,7 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
+!CLI/src/main/**/target/
 !**/src/test/**/target/
 
 ### STS ###
@@ -26,7 +26,7 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
+!CLI/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###

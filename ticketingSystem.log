@@ -1,0 +1,114 @@
+[2024-12-08 20:41:19] [Info] Vendor thread stopped.
+[2024-12-08 21:00:27] [INFO] Customer thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Customer thread started.
+[2024-12-08 21:00:27] [INFO] Customer thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Customer thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Customer thread started.
+[2024-12-08 21:00:27] [INFO] Vendor thread started.
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 8, Tickets remaining: 142
+[2024-12-08 21:00:27] [INFO] Customer purchased 4 tickets. Tickets left in pool: 4
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 12, Tickets remaining: 134
+[2024-12-08 21:00:27] [INFO] Customer purchased 4 tickets. Tickets left in pool: 8
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 16, Tickets remaining: 126
+[2024-12-08 21:00:27] [INFO] Customer purchased 4 tickets. Tickets left in pool: 12
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 20, Tickets remaining: 118
+[2024-12-08 21:00:27] [INFO] Customer purchased 4 tickets. Tickets left in pool: 16
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 24, Tickets remaining: 110
+[2024-12-08 21:00:27] [INFO] Customer purchased 4 tickets. Tickets left in pool: 20
+[2024-12-08 21:00:27] [INFO] Vendor released 8 tickets. Tickets in pool: 28, Tickets remaining: 102
+[2024-12-08 21:00:28] [INFO] Customer purchased 4 tickets. Tickets left in pool: 24
+[2024-12-08 21:00:28] [INFO] Customer purchased 4 tickets. Tickets left in pool: 20
+[2024-12-08 21:00:28] [INFO] Customer purchased 4 tickets. Tickets left in pool: 16
+[2024-12-08 21:00:28] [INFO] Customer purchased 4 tickets. Tickets left in pool: 12
+[2024-12-08 21:00:28] [INFO] Customer purchased 4 tickets. Tickets left in pool: 8
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 16, Tickets remaining: 94
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 24, Tickets remaining: 86
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 32, Tickets remaining: 78
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 40, Tickets remaining: 70
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 48, Tickets remaining: 62
+[2024-12-08 21:00:29] [INFO] Vendor released 8 tickets. Tickets in pool: 56, Tickets remaining: 54
+[2024-12-08 21:00:30] [INFO] Customer purchased 4 tickets. Tickets left in pool: 52
+[2024-12-08 21:00:30] [INFO] Customer purchased 4 tickets. Tickets left in pool: 48
+[2024-12-08 21:00:30] [INFO] Customer purchased 4 tickets. Tickets left in pool: 44
+[2024-12-08 21:00:30] [INFO] Customer purchased 4 tickets. Tickets left in pool: 40
+[2024-12-08 21:00:30] [INFO] Customer purchased 4 tickets. Tickets left in pool: 36
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 44, Tickets remaining: 46
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 52, Tickets remaining: 38
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 60, Tickets remaining: 30
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 68, Tickets remaining: 22
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 76, Tickets remaining: 14
+[2024-12-08 21:00:31] [INFO] Vendor released 8 tickets. Tickets in pool: 84, Tickets remaining: 6
+[2024-12-08 21:00:31] [INFO] Customer purchased 4 tickets. Tickets left in pool: 80
+[2024-12-08 21:00:31] [INFO] Customer purchased 4 tickets. Tickets left in pool: 76
+[2024-12-08 21:00:31] [INFO] Customer purchased 4 tickets. Tickets left in pool: 72
+[2024-12-08 21:00:31] [INFO] Customer purchased 4 tickets. Tickets left in pool: 68
+[2024-12-08 21:00:31] [INFO] Customer purchased 4 tickets. Tickets left in pool: 64
+[2024-12-08 21:00:33] [INFO] Vendor released 6 tickets. Tickets in pool: 70, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Vendor released 0 tickets. Tickets in pool: 70, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Vendor released 0 tickets. Tickets in pool: 70, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Vendor released 0 tickets. Tickets in pool: 70, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Customer purchased 4 tickets. Tickets left in pool: 66
+[2024-12-08 21:00:33] [INFO] Vendor released 0 tickets. Tickets in pool: 66, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Vendor released 0 tickets. Tickets in pool: 66, Tickets remaining: 0
+[2024-12-08 21:00:33] [INFO] Customer purchased 4 tickets. Tickets left in pool: 62
+[2024-12-08 21:00:33] [INFO] Customer purchased 4 tickets. Tickets left in pool: 58
+[2024-12-08 21:00:33] [INFO] Customer purchased 4 tickets. Tickets left in pool: 54
+[2024-12-08 21:00:33] [INFO] Customer purchased 4 tickets. Tickets left in pool: 50
+[2024-12-08 21:00:34] [INFO] Customer purchased 4 tickets. Tickets left in pool: 46
+[2024-12-08 21:00:34] [INFO] Customer purchased 4 tickets. Tickets left in pool: 42
+[2024-12-08 21:00:34] [INFO] Customer purchased 4 tickets. Tickets left in pool: 38
+[2024-12-08 21:00:34] [INFO] Customer purchased 4 tickets. Tickets left in pool: 34
+[2024-12-08 21:00:34] [INFO] Customer purchased 4 tickets. Tickets left in pool: 30
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:35] [INFO] Vendor released 0 tickets. Tickets in pool: 30, Tickets remaining: 0
+[2024-12-08 21:00:36] [INFO] Customer purchased 4 tickets. Tickets left in pool: 26
+[2024-12-08 21:00:36] [INFO] Customer purchased 4 tickets. Tickets left in pool: 22
+[2024-12-08 21:00:36] [INFO] Customer purchased 4 tickets. Tickets left in pool: 18
+[2024-12-08 21:00:36] [INFO] Customer purchased 4 tickets. Tickets left in pool: 14
+[2024-12-08 21:00:36] [INFO] Customer purchased 4 tickets. Tickets left in pool: 10
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Vendor released 0 tickets. Tickets in pool: 10, Tickets remaining: 0
+[2024-12-08 21:00:37] [INFO] Customer purchased 4 tickets. Tickets left in pool: 6
+[2024-12-08 21:00:37] [INFO] Customer purchased 4 tickets. Tickets left in pool: 2
+[2024-12-08 21:00:37] [INFO] Customer purchased 2 tickets. Tickets left in pool: 0
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] All tickets released.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Customer thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-08 21:00:39] [INFO] Customer thread interrupted.
+[2024-12-08 21:00:39] [INFO] Customer thread stopped.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Customer thread stopped.
+[2024-12-08 21:00:39] [INFO] Customer thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-08 21:00:39] [INFO] Customer thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-08 21:00:39] [INFO] Vendor thread interrupted.
+[2024-12-08 21:00:39] [INFO] Customer thread interrupted.
+[2024-12-08 21:00:39] [INFO] Customer thread stopped.
+[2024-12-08 21:00:39] [INFO] Customer thread stopped.
+[2024-12-08 21:00:39] [INFO] Customer thread stopped.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
+[2024-12-08 21:00:39] [INFO] Vendor thread stopped.
