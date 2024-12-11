@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { saveConfiguration, startSimulation, resetSimulation, stopSimulation } from '../services/api';
+import { saveConfiguration, startSimulation, resetSimulation, stopSimulation, loadConfiguration } from '../services/api';
 
 const ConfigurationForm = ({ onRun, onStop, onReset }) => {
   const [formData, setFormData] = useState({
@@ -52,6 +52,15 @@ const ConfigurationForm = ({ onRun, onStop, onReset }) => {
     }
   };
 
+  const handleLoad = async () => {
+    try {
+      const response = await loadConfiguration(formData);
+      console.log('Configuration loaded:', response);
+    } catch (error) {
+      console.error('Error loading configuration:', error);
+    }
+  };
+
   return (
     <div style={styles.container}>
       <h2 style={styles.header}>Configure Simulation</h2>
@@ -69,6 +78,7 @@ const ConfigurationForm = ({ onRun, onStop, onReset }) => {
       </div>
       <div style={styles.buttonRow}>
         <button style={styles.saveBtn} onClick={handleSave}>Save Configuration</button>
+        <button style={styles.loadBtn} onClick={handleLoad}>Load Configuration</button>
         <button style={styles.runBtn} onClick={handleRun}>Run Simulation</button>
         <button style={styles.stopBtn} onClick={handleStop}>Stop Simulation</button>
         <button style={styles.resetBtn} onClick={handleReset}>Reset Simulation</button>
@@ -135,6 +145,13 @@ const styles = {
   },
   resetBtn: {
     backgroundColor: '#9c27b0',
+    color: '#ffffff',
+    padding: '10px 20px',
+    border: 'none',
+    cursor: 'pointer',
+  },
+  loadBtn: {
+    backgroundColor: '#7a790c',
     color: '#ffffff',
     padding: '10px 20px',
     border: 'none',
