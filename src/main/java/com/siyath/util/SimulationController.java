@@ -1,16 +1,27 @@
 package com.siyath.util;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonSyntaxException;
 import com.siyath.config.Config;
 import com.siyath.model.Customer;
 import com.siyath.model.TicketPool;
 import com.siyath.model.Vendor;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "*", allowedHeaders = "*") // Enable CORS for all origins and headers
 public class SimulationController {
+    private static final String CONFIG_FILE = "config.json";
     private Config config;
     private TicketPool ticketPool;
     private Thread[] vendors;
@@ -110,4 +121,45 @@ public class SimulationController {
 
         return "Simulation reset successfully.";
     }
+
+    @PostMapping("/save-configuration")
+    public synchronized String saveConfiguration(@RequestBody Config newConfig) {
+        // Save the provided configuration to the JSON file
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
+            gson.toJson(newConfig, writer);
+            return "Configuration saved successfully.";
+        } catch (IOException e) {
+            return "Failed to save configuration: " + e.getMessage();
+        }
+    }
+
+    @GetMapping("/load-configuration")
+    public synchronized Config loadConfiguration() {
+        // Load configuration from the JSON file
+        Gson gson = new Gson();
+        try (FileReader reader = new FileReader(CONFIG_FILE)) {
+            this.config = gson.fromJson(reader, Config.class);
+            return this.config;
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to load configuration: " + e.getMessage());
+        } catch (JsonSyntaxException e) {
+            throw new RuntimeException("Invalid configuration format: " + e.getMessage());
+        }
+    }
+
+    @GetMapping("/logs")
+    public List<String> getLogs() {
+        List<String> logs = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader("ticketingSystem.log"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                logs.add(line);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to read logs: " + e.getMessage());
+        }
+        return logs;
+    }
+
 }

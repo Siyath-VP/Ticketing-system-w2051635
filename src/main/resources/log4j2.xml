@@ -7,7 +7,7 @@
         </Console>
 
         <!-- File Appender -->
-        <File name="File" fileName="ticketingSystem.log">
+        <File name="File" fileName="ticketingSystem.log" append="false">
             <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] [%p] %m%n" />
         </File>
     </Appenders>
