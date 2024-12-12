@@ -17,6 +17,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ * The SimulationController class provides RESTful endpoints to manage the simulation.
+ * It allows starting, stopping, resetting simulations, saving/loading configurations, and retrieving logs.
+ */
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = "*", allowedHeaders = "*") // Enable CORS for all origins and headers
@@ -28,6 +32,12 @@ public class SimulationController {
     private Thread[] customers;
     private final AtomicBoolean isRunning = new AtomicBoolean(false);
 
+    /**
+     * Starts the simulation with the provided configuration.
+     *
+     * @param newConfig The configuration for the simulation.
+     * @return A success or failure message.
+     */
     @PostMapping("/start-simulation")
     public synchronized String startSimulation(@RequestBody Config newConfig) {
         if (isRunning.get()) {
@@ -54,6 +64,11 @@ public class SimulationController {
         return "Simulation started successfully.";
     }
 
+    /**
+     * Stops the running simulation.
+     *
+     * @return A success or failure message.
+     */
     @PostMapping("/stop-simulation")
     public synchronized String stopSimulation() {
         if (!isRunning.get()) {
@@ -107,6 +122,11 @@ public class SimulationController {
         return "Simulation stopped successfully.";
     }
 
+    /**
+     * Resets the simulation, clearing all configurations and stopping any running threads.
+     *
+     * @return A success message.
+     */
     @PostMapping("/reset-simulation")
     public synchronized String resetSimulation() {
         // If running, stop first
@@ -122,9 +142,14 @@ public class SimulationController {
         return "Simulation reset successfully.";
     }
 
+    /**
+     * Saves the provided configuration to a file.
+     *
+     * @param newConfig The configuration to save.
+     * @return A success or failure message.
+     */
     @PostMapping("/save-configuration")
     public synchronized String saveConfiguration(@RequestBody Config newConfig) {
-        // Save the provided configuration to the JSON file
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             gson.toJson(newConfig, writer);
@@ -134,9 +159,13 @@ public class SimulationController {
         }
     }
 
+    /**
+     * Loads the configuration from a file.
+     *
+     * @return The loaded configuration.
+     */
     @GetMapping("/load-configuration")
     public synchronized Config loadConfiguration() {
-        // Load configuration from the JSON file
         Gson gson = new Gson();
         try (FileReader reader = new FileReader(CONFIG_FILE)) {
             this.config = gson.fromJson(reader, Config.class);
@@ -148,6 +177,11 @@ public class SimulationController {
         }
     }
 
+    /**
+     * Retrieves the log entries from the log file.
+     *
+     * @return A list of log entries.
+     */
     @GetMapping("/logs")
     public List<String> getLogs() {
         List<String> logs = new ArrayList<>();
@@ -161,5 +195,4 @@ public class SimulationController {
         }
         return logs;
     }
-
 }
